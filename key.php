@@ -1,4 +1,4 @@
-<?php isset($_thisName) ? $_SERVER['PHP_SELF'] != '/' . $_thisName ? exit() : '' : exit(); ?>
+<?php isset($_thisName) ? '' : exit(); ?>
 <?php
 
 $key_content = array(
